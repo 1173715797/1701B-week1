@@ -42,7 +42,7 @@ gulp.task('watch', function() {
     })
     //起服务
 gulp.task('webserver', function() {
-    return gulp.src('../src')
+    return gulp.src('src')
         .pipe(webserver({
             prot: 8080,
             open: true,
